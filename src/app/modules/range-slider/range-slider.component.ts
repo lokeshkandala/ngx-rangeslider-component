@@ -107,13 +107,7 @@ export class RangeSliderComponent implements ControlValueAccessor {
   }
   writeValue(value: number[]): void {
     if (value) {
-      if (value[0] === null) {
-        value[0] = this.min;
-      }
-      else if (value[1] === null) {
-        value[1] = this.max;
-      }
-      else {
+     
         if(this.range){
         let prevRange = this.rangeCache.slice(0);
         if (value[0] > prevRange[1]) {
@@ -128,7 +122,7 @@ export class RangeSliderComponent implements ControlValueAccessor {
         else if(value[1]>this.max){
           value[1]=this.max;
         }
-      }
+      
     }
     this.update(value);
     }
