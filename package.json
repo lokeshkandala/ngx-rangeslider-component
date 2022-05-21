@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build",
+    "build": "ng build --output-path docs --base-href /ngx-rangeslider-component/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "packagr": "ng-packagr -p ng-package.json"
