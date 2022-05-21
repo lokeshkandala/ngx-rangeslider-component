@@ -1,14 +1,16 @@
 {
-  "name": "range-slider",
-  "version": "0.0.0",
+  "name": "ngx-rangeslider-component",
+  "version": "1.0.6",
+  "license": "MIT",
+  "description": "Angular rangeslider component",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~13.3.0",
     "@angular/common": "~13.3.0",
@@ -34,6 +36,24 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-packagr": "^13.3.1",
     "typescript": "~4.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokeshkandala/ngx-rangeslider.git"
+  },
+  "keywords": [
+    "ngx-rangeslider-component",
+    "rangeslider",
+    "angular",
+    "ngx",
+    "input",
+    "range"
+  ],
+  "author": "Lokesh",
+  "bugs": {
+    "url": "https://github.com/lokeshkandala/ngx-rangeslider/issues"
+  },
+  "homepage": "https://github.com/lokeshkandala/ngx-rangeslider#readme"
 }
