@@ -7,6 +7,6 @@ import {ClickOutsideDirective} from './click-outside.directive';
     CommonModule
   ],
   declarations: [RangeSliderComponent,ClickOutsideDirective],
-  exports:[RangeSliderComponent,ClickOutsideDirective]
+  exports:[RangeSliderComponent]
 })
 export class RangeSliderModule { }
