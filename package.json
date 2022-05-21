@@ -42,19 +42,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lokeshkandala/ngx-rangeslider.git"
+    "url": "git+https://github.com/lokeshkandala/ngx-rangeslider-component.git"
   },
   "keywords": [
     "ngx-rangeslider-component",
     "rangeslider",
-    "angular",
+    "angular rangeslider",
     "ngx",
     "input",
     "range"
   ],
   "author": "Lokesh",
   "bugs": {
-    "url": "https://github.com/lokeshkandala/ngx-rangeslider/issues"
+    "url": "https://github.com/lokeshkandala/ngx-rangeslider-component/issues"
   },
-  "homepage": "https://github.com/lokeshkandala/ngx-rangeslider#readme"
+  "homepage": "https://github.com/lokeshkandala/ngx-rangeslider-component#readme"
 }
