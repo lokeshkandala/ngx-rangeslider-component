@@ -1,6 +1,6 @@
 # ngx-rangeslider-component
 
-Live Demo : https://lokeshkandala.github.io/ngx-rangeslider/
+Live Demo : https://lokeshkandala.github.io/ngx-rangeslider-component/
 
 ## Installation
 
