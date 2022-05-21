@@ -8,7 +8,8 @@
     "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "packagr": "ng-packagr -p ng-package.json"
   },
   "private": false,
   "dependencies": {
